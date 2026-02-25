@@ -3,7 +3,7 @@
 ## 📌 Objective
 In Edge AI, sensors (like vibration monitors or microphones) often generate high-frequency data (e.g., 1000+ readings per second). Saving all this raw data to disk will quickly exhaust the device's storage and bandwidth.
 
-This lab demonstrates **Downsampling (降採樣)**. You will implement a Chunk Averaging filter to compress the data stream on-the-fly, retaining the core signal features while discarding high-frequency noise and reducing the storage footprint by 99%.
+This lab demonstrates **Downsampling**. You will implement a Chunk Averaging filter to compress the data stream on-the-fly, retaining the core signal features while discarding high-frequency noise and reducing the storage footprint by 99%.
 
 ## 🛠️ Environment Setup
 1. Launch your **GitHub Codespaces** from this repository.
